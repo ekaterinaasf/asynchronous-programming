@@ -1,3 +1,3 @@
-export default (user) => `Hello, ${user}!`;
+export default sayHi(user) => `Hello, ${user}!`;
 
-export default (user) => `Bye, ${user}!`;
+export default sayBye(user) => `Bye, ${user}!`;
